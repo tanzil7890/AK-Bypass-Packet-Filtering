@@ -185,6 +185,9 @@ package_info.md
 PACKAGE_SUMMARY.md
 prepare_for_pypi.py
 RELEASE_CHECKLIST.md
+MEMORY_POOL_SUCCESS.md
+HFT_Applications_Guide.md
+github_release_notes.md
 Track.md
 
 build/
