@@ -1,0 +1,26 @@
+groups:
+  - name: hft_alerts
+    rules:
+      - alert: HighLatency
+        expr: hft_latency_p95 > 1000
+        for: 30s
+        labels:
+          severity: warning
+        annotations:
+          summary: "High latency detected"
+          
+      - alert: LowThroughput
+        expr: hft_messages_per_second < 50000
+        for: 60s
+        labels:
+          severity: critical
+        annotations:
+          summary: "Message throughput below threshold"
+          
+      - alert: MemoryLeak
+        expr: hft_memory_efficiency < 99.9
+        for: 120s
+        labels:
+          severity: warning
+        annotations:
+          summary: "Potential memory leak detected"

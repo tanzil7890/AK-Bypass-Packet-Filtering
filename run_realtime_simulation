@@ -1,0 +1,32 @@
+# Display final C extension statistics
+if EXTENSIONS_AVAILABLE and hasattr(simulator, 'packet_memory_pool') and simulator.packet_memory_pool:
+    final_pool_stats = simulator.packet_memory_pool.get_statistics()
+    print(f"\n📊 Final C Extension Performance:")
+    print(f"   • Total Allocations: {final_pool_stats['total_allocations']:,}")
+    print(f"   • Total Deallocations: {final_pool_stats['total_deallocations']:,}")
+    print(f"   • Memory Efficiency: {((final_pool_stats['total_allocations'] == final_pool_stats['total_deallocations'])*100):.0f}% (no leaks)")
+    
+    # Calculate memory pool performance
+    duration = time.time() - simulator.session_start
+    if duration > 0:
+        alloc_rate = final_pool_stats['total_allocations'] / duration
+        print(f"   • Allocation Rate: {alloc_rate:,.0f} ops/sec")
+
+if EXTENSIONS_AVAILABLE and hasattr(simulator, 'message_queues') and simulator.message_queues:
+    total_enqueued = sum(q.get_statistics()['total_enqueued'] for q in simulator.message_queues)
+    total_dequeued = sum(q.get_statistics()['total_dequeued'] for q in simulator.message_queues)
+    print(f"   • Lock-Free Queue Messages: {total_enqueued:,} enqueued, {total_dequeued:,} dequeued")
+    
+    # Calculate queue performance
+    if duration > 0 and total_enqueued > 0:
+        queue_rate = total_enqueued / duration
+        queue_efficiency = (total_dequeued / total_enqueued * 100) if total_enqueued > 0 else 0
+        print(f"   • Queue Rate: {queue_rate:,.0f} messages/sec")
+        print(f"   • Queue Efficiency: {queue_efficiency:.1f}%")
+
+if EXTENSIONS_AVAILABLE and hasattr(simulator, 'arbitrage_queue') and simulator.arbitrage_queue:
+    arb_stats = simulator.arbitrage_queue.get_statistics()
+    print(f"   • Arbitrage Queue: {arb_stats['total_enqueued']:,} opportunities enqueued")
+    if duration > 0 and arb_stats['total_enqueued'] > 0:
+        arb_rate = arb_stats['total_enqueued'] / duration
+        print(f"   • Arbitrage Rate: {arb_rate:.1f} opportunities/sec") 

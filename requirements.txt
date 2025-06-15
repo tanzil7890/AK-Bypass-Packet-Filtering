@@ -1,0 +1,65 @@
+# Core networking and packet manipulation
+scapy>=2.5.0
+# netfilterqueue>=1.1.0  # Linux-specific, commented out for macOS
+# python-iptables>=1.0.1  # Linux-specific, commented out for macOS
+
+# System and process monitoring
+psutil>=5.9.0
+
+# Network analysis and utilities
+pyshark>=0.6.0
+dpkt>=1.9.8
+
+# Cryptography and security
+cryptography>=41.0.0
+pycryptodome>=3.18.0
+
+# Data processing and analysis
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Configuration and logging
+pyyaml>=6.0
+colorlog>=6.7.0
+
+# Testing framework
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.0
+
+# Development tools
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Documentation
+sphinx>=7.1.0
+sphinx-rtd-theme>=1.3.0
+
+# Web interface (for future dashboard)
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# Additional utilities
+click>=8.1.0
+tqdm>=4.65.0
+tabulate>=0.9.0
+
+# macOS-specific network tools
+netifaces>=0.11.0
+
+# Date and time handling
+python-dateutil>=2.8.0
+pytz>=2023.3
+lxml>=4.9.0
+
+# Roman numerals (for some protocol parsing)
+roman-numerals-py>=3.1.0
+
+# Performance Optimization Dependencies
+cython>=3.0.7,<4.0
+setuptools>=69.0.0
+wheel>=0.42.0
+# Note: mmap is part of Python standard library, no separate package needed
+# For lock-free data structures (optional, has fallback)
+# atomics>=1.0.2  # Commented out - has pure Python fallback 

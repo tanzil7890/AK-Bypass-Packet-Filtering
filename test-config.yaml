@@ -1,0 +1,103 @@
+alert_email_smtp: null
+alert_thresholds:
+  cpu_usage_threshold: 80.0
+  latency_threshold_us: 1000
+  memory_usage_threshold: 85.0
+  packet_loss_threshold: 0.01
+alert_webhook_url: null
+alerts_enabled: true
+api_key: null
+audit_enabled: true
+audit_retention_days: 2555
+authentication_enabled: false
+backup_enabled: true
+backup_retention_days: 90
+capture_filter: null
+capture_interface: any
+capture_timeout: 1000
+compliance_regulations: []
+compression_enabled: true
+cpu_affinity: null
+custom_settings: {}
+dashboard_enabled: false
+dashboard_port: 8080
+data_directory: /var/lib/hft-packetfilter
+exchanges:
+  CBOE:
+    credentials: null
+    custom_settings: {}
+    host: demo.cboe.com
+    is_primary: true
+    latency_target_us: 800
+    name: CBOE
+    ports:
+    - 4003
+    - 9003
+    protocol: FIX/TCP
+    rate_limits:
+      messages_per_second: 4000
+      orders_per_second: 800
+    region: US
+    session_times:
+      market_close: '16:00'
+      market_open: 09:30
+    ssl_config: null
+  NASDAQ:
+    credentials: null
+    custom_settings: {}
+    host: demo.nasdaq.com
+    is_primary: true
+    latency_target_us: 600
+    name: NASDAQ
+    ports:
+    - 4002
+    - 9002
+    protocol: FIX/TCP
+    rate_limits:
+      messages_per_second: 6000
+      orders_per_second: 1200
+    region: US
+    session_times:
+      market_close: '16:00'
+      market_open: 09:30
+    ssl_config: null
+  NYSE:
+    credentials: null
+    custom_settings: {}
+    host: demo.nyse.com
+    is_primary: true
+    latency_target_us: 500
+    name: NYSE
+    ports:
+    - 4001
+    - 9001
+    protocol: FIX/TCP
+    rate_limits:
+      messages_per_second: 5000
+      orders_per_second: 1000
+    region: US
+    session_times:
+      market_close: '16:00'
+      market_open: 09:30
+    ssl_config: null
+log_backup_count: 5
+log_file: null
+log_format: structured
+log_level: INFO
+log_max_size: 100MB
+log_rotation: true
+memory_pool_size: 1GB
+metrics_enabled: true
+metrics_export_format: json
+metrics_export_interval: 60
+metrics_retention_days: 30
+network_interface: null
+packet_buffer_size: 65536
+performance_mode: ultra_low_latency
+promiscuous_mode: false
+regulatory_reporting_enabled: false
+ssl_ca_file: null
+ssl_cert_file: null
+ssl_enabled: false
+ssl_key_file: null
+temp_directory: /tmp/hft-packetfilter

@@ -1,0 +1,17 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'hft-simulator'
+    static_configs:
+      - targets: ['hft-simulator:9090']
+    scrape_interval: 5s
+    
+rule_files:
+  - "alerts.yml"
+  
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+          - alertmanager:9093

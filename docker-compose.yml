@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  hft-simulator:
+    build: .
+    environment:
+      - HFT_MODE=production
+      - LOG_LEVEL=INFO
+    ports:
+      - "8080:8080"  # Health check
+      - "9090:9090"  # Metrics
+    volumes:
+      - ./config:/app/config:ro
+      - ./logs:/app/logs
+    restart: unless-stopped
+    
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9091:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana-storage:/var/lib/grafana
+      
+volumes:
+  grafana-storage:
