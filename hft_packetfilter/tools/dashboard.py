@@ -5,7 +5,7 @@ HFT Dashboard - Web-based Monitoring Dashboard
 Command-line interface for launching a web-based dashboard for
 real-time HFT monitoring and visualization.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

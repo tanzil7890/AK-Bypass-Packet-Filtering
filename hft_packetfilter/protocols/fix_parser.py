@@ -4,7 +4,7 @@ FIX Protocol Parser
 
 Financial Information eXchange (FIX) protocol parser for HFT environments.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

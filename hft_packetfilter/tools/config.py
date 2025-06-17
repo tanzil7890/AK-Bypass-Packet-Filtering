@@ -5,7 +5,7 @@ HFT Config - Configuration Management CLI Tool
 Command-line interface for managing HFT-PacketFilter configurations,
 validating settings, and generating configuration templates.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

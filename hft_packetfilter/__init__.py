@@ -5,13 +5,13 @@ HFT-PacketFilter: High-Frequency Trading Network Analysis Package
 A specialized Python package for High-Frequency Trading environments,
 providing real-time network packet filtering, analysis, and optimization.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 
 # Version information
 __version__ = "1.0.0"
-__author__ = "HFT-PacketFilter Development Team"
+__author__ = "Tanzil github://@tanzil7890"
 __email__ = "dev@hft-packetfilter.com"
 __license__ = "Apache License 2.0"
 __description__ = "High-Frequency Trading Network Analysis Package"

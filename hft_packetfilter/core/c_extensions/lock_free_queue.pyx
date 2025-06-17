@@ -11,7 +11,7 @@ Lock-Free Queue
 High-performance lock-free queue for HFT applications.
 Supports multiple producers and consumers without locks.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

@@ -4,7 +4,7 @@ HFT-PacketFilter Core Module
 
 Core functionality for High-Frequency Trading network analysis.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

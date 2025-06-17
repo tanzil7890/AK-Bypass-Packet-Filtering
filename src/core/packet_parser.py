@@ -5,7 +5,7 @@ AK-Bypass Packet Parser Module
 This module provides detailed packet parsing and analysis capabilities
 for various network protocols.
 
-Author: AK-Bypass Project
+Author: Tanzil github://@tanzil7890
 License: Educational/Research Use Only
 """
 

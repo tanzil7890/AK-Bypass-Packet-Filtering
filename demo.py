@@ -11,7 +11,7 @@ Usage:
 Note: For actual packet capture, run with sudo:
     sudo python3 demo.py --capture
 
-Author: AK-Bypass Project
+Author: Tanzil github://@tanzil7890
 License: Educational/Research Use Only
 """
 

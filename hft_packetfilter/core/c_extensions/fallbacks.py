@@ -5,7 +5,7 @@ Fallback Python Implementations
 Pure Python implementations used when C extensions are not available.
 Provides same API but with reduced performance.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

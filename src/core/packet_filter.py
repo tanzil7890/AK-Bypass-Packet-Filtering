@@ -5,7 +5,7 @@ AK-Bypass Packet Filter Module
 This module provides core packet filtering functionality for network traffic analysis
 and security research purposes.
 
-Author: AK-Bypass Project
+Author: Tanzil github://@tanzil7890
 License: Educational/Research Use Only
 """
 

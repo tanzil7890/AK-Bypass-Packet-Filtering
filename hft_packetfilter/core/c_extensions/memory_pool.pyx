@@ -11,7 +11,7 @@ High-Performance Memory Pool
 Zero-allocation memory pool for HFT applications.
 Provides pre-allocated memory blocks for ultra-low latency.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

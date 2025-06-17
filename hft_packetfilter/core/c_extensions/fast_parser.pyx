@@ -11,7 +11,7 @@ Ultra-Fast Packet Parser
 Cython-optimized packet parsing for HFT applications.
 Achieves microsecond-level parsing performance.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

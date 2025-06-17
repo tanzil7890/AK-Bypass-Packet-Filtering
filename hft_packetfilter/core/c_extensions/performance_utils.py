@@ -5,7 +5,7 @@ Performance Utilities
 System-level performance optimization utilities for HFT applications.
 Provides CPU affinity, NUMA optimization, and memory management.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

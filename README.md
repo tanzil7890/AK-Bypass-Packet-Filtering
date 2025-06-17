@@ -311,7 +311,7 @@ services:
 
 ## 🤝 **Contributing**
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+We welcome contributions! Will be adding this [Contributing Guide](CONTRIBUTING.md) 
 
 ### **Development Setup**
 ```bash
@@ -331,13 +331,12 @@ python -m hft_packetfilter.tools.benchmark --test-type all
 
 Apache License 2.0 - See [LICENSE](LICENSE) file for details.
 
-## 🙏 **Acknowledgments**
+## 👨‍💻 **Author**
 
-Special thanks to:
-- **Python Community** for the excellent ecosystem
-- **Cython Developers** for high-performance extensions
-- **Trading Community** for domain expertise and feedback
-- **Open Source Contributors** who made this project possible
+**Managed by:** Tanzil github://@tanzil7890
+
+For questions, collaborations, or professional inquiries, please reach out via GitHub.
+
 
 ---
 

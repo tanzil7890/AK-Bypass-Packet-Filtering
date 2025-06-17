@@ -5,7 +5,7 @@ HFT Benchmark - Performance Testing CLI Tool
 Command-line interface for benchmarking HFT-PacketFilter performance,
 measuring latency, throughput, and system resource usage.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

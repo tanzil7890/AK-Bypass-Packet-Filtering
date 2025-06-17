@@ -9,7 +9,7 @@ Usage:
     python3 hft_demo.py
     sudo python3 hft_demo.py --live  # For live capture
 
-Author: AK-Bypass Project
+Author: Tanzil github://@tanzil7890
 License: Educational/Research Use Only
 """
 

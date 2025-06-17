@@ -9,7 +9,7 @@ Usage:
     python3 production_hft_demo.py
     sudo python3 production_hft_demo.py --live  # For live capture
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 
@@ -289,13 +289,13 @@ def demo_package_info():
     print("PACKAGE INFORMATION")
     print("=" * 60)
     
-    print(f"   Package: {hft.__package_info__['name']}")
+    print(f"   Package: {hft.PACKAGE_INFO['name']}")
     print(f"   Version: {hft.__version__}")
     print(f"   Description: {hft.__description__}")
     print(f"   Author: {hft.__author__}")
     print(f"   License: {hft.__license__}")
-    print(f"   Homepage: {hft.__package_info__['homepage']}")
-    print(f"   Documentation: {hft.__package_info__['documentation']}")
+    print(f"   Homepage: {hft.PACKAGE_INFO.get('homepage', 'https://github.com/tanzil7890')}")
+    print(f"   Documentation: {hft.PACKAGE_INFO.get('documentation', 'https://github.com/tanzil7890')}")
 
 
 def main():

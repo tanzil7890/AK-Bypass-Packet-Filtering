@@ -4,7 +4,7 @@ HFT-PacketFilter Integrations Module
 
 Integration components for trading platforms, market data vendors, and external systems.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

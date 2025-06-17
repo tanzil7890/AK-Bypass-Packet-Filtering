@@ -4,7 +4,7 @@ Alert System Module
 
 Real-time alert and notification system for HFT-PacketFilter package.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

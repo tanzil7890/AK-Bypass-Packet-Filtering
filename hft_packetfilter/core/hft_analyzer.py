@@ -5,7 +5,7 @@ HFT Analyzer - Main High-Frequency Trading Network Analysis Engine
 This module provides the primary interface for HFT network analysis,
 integrating packet filtering, latency monitoring, and trading analytics.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

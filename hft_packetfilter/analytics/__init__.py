@@ -4,7 +4,7 @@ HFT-PacketFilter Analytics Module
 
 Advanced analytics and intelligence for High-Frequency Trading environments.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

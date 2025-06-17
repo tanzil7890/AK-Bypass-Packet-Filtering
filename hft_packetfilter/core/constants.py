@@ -4,7 +4,7 @@ Constants Module
 
 Package-wide constants and configuration values for HFT-PacketFilter.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

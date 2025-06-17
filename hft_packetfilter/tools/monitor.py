@@ -5,7 +5,7 @@ HFT Monitor - Real-time HFT Network Monitoring CLI Tool
 Command-line interface for real-time monitoring of HFT network performance,
 latency metrics, and trading infrastructure health.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

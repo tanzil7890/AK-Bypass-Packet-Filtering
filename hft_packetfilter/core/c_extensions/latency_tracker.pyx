@@ -11,7 +11,7 @@ Ultra-Low Latency Tracker
 High-precision latency measurement and tracking for HFT applications.
 Provides nanosecond-level accuracy for latency analysis.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

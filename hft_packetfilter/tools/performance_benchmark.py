@@ -5,7 +5,7 @@ Performance Benchmark Tool
 Comprehensive benchmarking suite for HFT packet filtering performance.
 Tests C extensions vs Python fallbacks and provides detailed metrics.
 
-Author: HFT-PacketFilter Development Team
+Author: Tanzil github://@tanzil7890
 License: Apache License 2.0
 """
 

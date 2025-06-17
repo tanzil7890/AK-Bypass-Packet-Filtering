@@ -5,7 +5,7 @@ HFT Network Analyzer Module
 This module provides specialized functionality for High-Frequency Trading
 network analysis and monitoring.
 
-Author: AK-Bypass Project
+Author: Tanzil github://@tanzil7890
 License: Educational/Research Use Only
 """
 
